@@ -18,19 +18,23 @@ frontend/build/
 frontend/. env
 frontend/. env.local
 frontend/.env.development. local
-frontend/.env.test. local
-frontend/.env.production. local
+frontend/. env.test.local
+frontend/.env.production.local
 frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
+frontend/package-lock.json
 
 # IDE
 .vscode/
 .idea/
-*. swp
+*.swp
 *.swo
 *~
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Git
+.git/
